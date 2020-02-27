@@ -6,7 +6,7 @@ import os
 login = tk.Tk()
 login.eval("tk::PlaceWindow . Center")
 login.title("Login")
-#login.iconbitmap('C:\\Users\\BnD\\Desktop\\GELO\\Python\\gp.ico')
+#login.iconbitmap('C:\\Python\\gp.ico')
 login.resizable(False, False)
 login.geometry('230x80')
 
@@ -18,7 +18,7 @@ newpasswordvar = tk.StringVar()
 newcnfrmpasswordvar = tk.StringVar()
 newemailvar = tk.StringVar()
 
-userfile = 'C:\\Users\\BnD\\Desktop\\GELO\\Python\\users.txt'
+userfile = 'C:\\Desktop\\Python\\users.txt'
 
 try:
     if not os.path.exists(userfile):
